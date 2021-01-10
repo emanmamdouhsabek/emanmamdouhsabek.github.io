@@ -1,0 +1,11 @@
+.card-img-top{
+    height: 250px;
+   
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-title , .card-text{
+    text-align: center;
+}

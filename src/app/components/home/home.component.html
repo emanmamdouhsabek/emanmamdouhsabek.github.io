@@ -1,0 +1,17 @@
+<div class="body">
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-3" *ngFor="let product of products" >
+            <div class="card" >
+                <img [src]="product.image" class="card-img-top " alt="product image ">
+                <div class="card-body">
+                  <h5 class="card-title">{{product.title | titlecase}}</h5>
+                  <p class="card-text">{{product.price | currency}}</p>
+                  <button class="btn btn-primary buy-button mr-3">Buy</button>
+                  <button class="btn btn-secondary buy-button">Add To Cart</button>
+                </div>
+              </div>
+        </div>
+      </div>  
+    </div>
+</div>
